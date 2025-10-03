@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio</title>
+        <style>
+            * {
+                padding: 0PX;
+                margin: 0PX;
+                font-family: Arial, sans-serif;
+
+            }
+            body {
+                padding: 0px;
+                margin: 0px;
+                display: flex;
+                flex-direction: column;
+            }
+
+            header {
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                background-color: black;
+                color: white;
+            }
+
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            h2 {
+                margin: 10px;
+            }
+
+            p {
+                text-align: justify;
+            }
+
+            section {
+                margin: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 40%;
+            }
+
+            img {
+                display: flex;
+                max-width: 40vw;
+                padding: 5px;
+                align-self: center;
+                justify-self: center;
+
+            }
+
+            .div-imagem{
+                margin-top: 10px;
+                background: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(97, 55, 155), rgb(147, 40, 142));
+            }
+
+            button {
+                color: white; /* Define a cor do texto para branco */
+                -webkit-text-stroke-width: 1px; /* Define a largura da borda (ajuste conforme necessário) */
+                -webkit-text-stroke-color: black; /* Define a cor da borda para preto */
+                /* Opções de fonte para melhor visualização, se desejar */
+                font-family: Arial, Helvetica, sans-serif;
+                background: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(97, 55, 155), rgb(147, 40, 142));
+            }
+
+            footer {
+                width: 100VW;
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+                border-top: 5px solid black;
+                height: 15vh;
+                background: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(97, 55, 155), rgb(147, 40, 142));;
+            }
+
+            .modal {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.7);
+                justify-content: center;
+                align-items: center;
+                z-index: 1000;
+            }
+
+            .modal-content {
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                text-align: center;
+                max-width: 400px;
+                width: 90%;
+            }
+
+            .modal-content img {
+                max-width: 100%;
+                margin: 10px 0;
+            }
+
+            .close-btn {
+                padding: 8px 16px;
+                margin-top: 10px;
+                cursor: pointer;
+                background-color: #333;
+                color: white;
+                border: none;
+                border-radius: 4px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>BEM-VINDO AO INFERNO!</h1>
+            <div class="buttons">
+                <button id="btnCagar">CAGAR NA CALÇA</button>
+                <button id="btnBolsonaro">BOLSONARO</button>
+            </div>
+
+        </header>
+        <main>
+            <section>
+                <h2>SOBRE MIM</h2>
+                <p>Sou o Shurek Musculoso, conhecido pela minha força e presença
+                    marcante. Meu físico é resultado de disciplina, foco e
+                    dedicação, sempre buscando superar meus próprios limites.
+                    Carrego comigo uma postura firme e determinada, enfrentando
+                    cada desafio de frente. Minha imagem reflete não apenas
+                    poder, mas também confiança e autenticidade, qualidades que
+                    moldam quem eu sou e me fazem seguir em constante evolução.
+                </p>
+                <div class="div-imagem">
+                    <img src="assets/sherek.jpg" alt>
+                </div>
+            </section>
+            <section>
+                <h2>MEU FILHOS</h2>
+                <p>Tenho dois filhos que fazem parte da minha história e do meu
+                    orgulho. O Austin é aventureiro, criativo e cheio de
+                    energia, sempre pronto para explorar o mundo com imaginação
+                    e alegria. Já o Lula é determinado, persistente e carrega
+                    uma visão de liderança que inspira. Cada um, à sua maneira,
+                    reflete um pedaço de mim: coragem, garra e autenticidade.
+                    Embaixo, deixo a foto dos dois juntos para mostrar como são
+                    importantes na minha vida.
+                </p>
+                <h3><strong>filho 1</strong></h3>
+                <div class="div-imagem">
+                    <img src="assets/austin.jpg" alt>
+                </div>
+                <h3><strong>filho 2</strong></h3>
+                <div class="div-imagem">
+                    <img src="assets/lula.jpg" alt>
+                </div>
+            </section>
+            <section>
+                <h2>MEU RELACIONAMENTO</h2>
+                <p>Meu relacionamento com Jair Messias Bolsonaro é algo que
+                    carrego com intensidade e singularidade. Vivemos uma conexão
+                    marcada por contrastes, onde a força e a determinação se
+                    encontram em meio às diferenças. Entre momentos de desafio e
+                    cumplicidade, construímos uma trajetória que reflete
+                    lealdade e presença. Não se trata de algo perfeito, mas sim
+                    verdadeiro, forjado na convivência e na vontade de seguir
+                    lado a lado, enfrentando o que vier.
+                </p>
+                <div class="div-imagem">
+                    <img src="assets/relacionamento.jpg" alt>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h2>OBRIGADO POR LER, DEUS IRÁ TE ABNÇOAR</h2>
+        </footer>
+        <div id="modalCagar" class="modal">
+            <div class="modal-content">
+                <p>Eu me caguei!</p>
+                <img src="assets/gato.jpg" alt="Imagem engraçada">
+                <button class="close-btn"
+                    onclick="fecharModal('modalCagar')">Fechar</button>
+            </div>
+        </div>
+
+        <div id="modalBolsonaro" class="modal">
+            <div class="modal-content">
+                <img src="assets/bolsonaro-egirl.jpg" alt="Bolsonaro">
+                <button class="close-btn"
+                    onclick="fecharModal('modalBolsonaro')">Fechar</button>
+            </div>
+        </div>
+        <script>
+    const btnCagar = document.getElementById('btnCagar');
+    const btnBolsonaro = document.getElementById('btnBolsonaro');
+
+    btnCagar.addEventListener('click', () => {
+        document.getElementById('modalCagar').style.display = 'flex';
+    });
+
+    btnBolsonaro.addEventListener('click', () => {
+        document.getElementById('modalBolsonaro').style.display = 'flex';
+    });
+
+    function fecharModal(id) {
+        document.getElementById(id).style.display = 'none';
+    }
+
+    window.addEventListener('click', function(e){
+        if(e.target.classList.contains('modal')){
+            e.target.style.display = 'none';
+        }
+    });
+</script>
+    </body>
+</html>
