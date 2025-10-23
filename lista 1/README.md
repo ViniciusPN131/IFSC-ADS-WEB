@@ -30,7 +30,7 @@ O objetivo deste projeto é aplicar os conhecimentos adquiridos na disciplina de
 1. Clone este repositório em sua máquina local:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/ppi1_lista1.git
+git clone https://github.com/ViniciusPN131/IFSC-ADS-WEB.git
 ```
 
 2. Abra os arquivos HTML em qualquer navegador para visualizar o conteúdo.
@@ -38,7 +38,7 @@ git clone https://github.com/SEU_USUARIO/ppi1_lista1.git
 3. Acesse a página no GitHub Pages utilizando o link:
 
 ```bash
-https://seu-usuario.github.io/ppi1_lista1/
+https://github.com/ViniciusPN131/IFSC-ADS-WEB.git
 ```
 
 ## Como configurar o GitHub Pages
@@ -50,7 +50,7 @@ Para ativar o GitHub Pages:
 3. Após salvar, você verá um link gerado, como:
 
 ```bash
-https://seu-usuario.github.io/ppi1_lista1/
+https://github.com/ViniciusPN131/IFSC-ADS-WEB.git
 ```
 
 ## Tecnologias Utilizadas
@@ -65,7 +65,7 @@ Este projeto foi uma excelente oportunidade para aprender a trabalhar com HTML, 
 
 ## Link do Repositório
 
-[https://github.com/SEU_USUARIO/ppi1_lista1](https://github.com/SEU_USUARIO/ppi1_lista1)
+[https://github.com/ViniciusPN131/IFSC-ADS-WEB.git](https://github.com/ViniciusPN131/IFSC-ADS-WEB.git)
 
 ## Comentários sobre a Experiência
 
