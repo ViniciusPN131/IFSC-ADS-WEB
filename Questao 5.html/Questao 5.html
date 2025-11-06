@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            gap: 10px;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+        }
+        .left {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .left-top {
+            width: 100%;
+            height: 66%;
+            display: flex;
+            flex-direction: row;
+        }
+        .left-top-left {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .left-top-left-top {
+            width: 100%;
+            height: 50%;
+            background-color: orange;
+        }
+        .left-top-left-bottom {
+            width: 100%;
+            height: 50%;
+            background-color: lightblue;
+        }
+        .left-top-right {
+            width: 40%;
+            height: 100%;
+            background-color: salmon;
+        }
+        .left-bottom {
+            width: 100%;
+            height: 34%;
+            background-color: yellow;
+        }
+        .right {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .right-top {
+            width: 100%;
+            height: 33%;
+            background-color: lightcyan;
+        }
+        .right-bottom {
+            width: 100%;
+            height: 67%;
+            display: flex;
+            flex-direction: row;
+        }
+        .right-bottom-left {
+            height: 100%;
+            width: 75%;
+            background-color: lightgreen;
+        }
+        .right-bottom-right {
+            height: 100%;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .bolas {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+        }
+
+        .right-bottom-right-first{
+            background-color: lightcoral;
+        }
+        .right-bottom-right-second{
+            background-color: darksalmon;
+        }
+        .right-bottom-right-third{
+            background-color: lightgreen;
+        }
+        .right-bottom-right-fourth{
+            background-color: lightblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div class="left-top">
+            <div class="left-top-left">
+                <div class="left-top-left-top"></div>
+                <div class="left-top-left-bottom"></div>
+            </div>
+            <div class="left-top-right"></div>
+        </div>
+        <div class="left-bottom"></div>
+    </div>
+    <div class="right">
+        <div class="right-top"></div>
+        <div class="right-bottom">
+            <div class="right-bottom-left"></div>
+            <div class="right-bottom-right">
+                <div class="right-bottom-right-first bolas"></div>
+                <div class="right-bottom-right-second bolas"></div>
+                <div class="right-bottom-right-third bolas"></div>
+                <div class="right-bottom-right-fourth bolas"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
